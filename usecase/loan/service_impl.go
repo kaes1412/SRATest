@@ -98,6 +98,5 @@ func (u *loanUsecase) IsDelinquent(ctx context.Context, id string) (bool, error)
 			missed = 0
 		}
 	}
-
 	return false, nil
 }
